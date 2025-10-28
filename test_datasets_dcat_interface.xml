@@ -82,4 +82,73 @@
             </dcat:Dataset>
         </dcat:dataset>
     </rdf:Description>
+    <rdf:Description rdf:about="https://doi.org/10.005664/654">
+        <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Catalog" />
+        <dct:identifier>187f832f-e0ba-4255-afef-2d10a404ebdb</dct:identifier>
+        <dct:title xml:lang="nl">Test dataset 5</dct:title>
+        <dct:description xml:lang="nl">Test dataset 5 abstract</dct:description>
+        <dct:publisher>
+            <foaf:Organization>
+                <foaf:name xml:lang="nl">Test dataset 5 publisher info</foaf:name>
+            </foaf:Organization>
+        </dct:publisher>
+        <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/NLD"/>
+        <foaf:homepage rdf:resource="https://opendata.wse.vlaanderen.be" />
+        <dct:license rdf:resource="https://data.vlaanderen.be/id/licentie/creative-commons-zero-verklaring/v1.0" />
+        <dcat:contactPoint>
+            <vcard:Kind>
+                <vcard:hasEmail rdf:resource="mailto:data.wse@vlaanderen.be" />
+            </vcard:Kind>
+        </dcat:contactPoint>
+        <dct:conformsTo rdf:resource="https://data.vlaanderen.be/doc/applicatieprofiel/DCAT-AP-VL" />
+        <dcat:dataset>
+            <dcat:Dataset rdf:about="https://doi.org/10.005664/654">
+                <dct:description xml:lang="nl">Test dataset 5 abstract</dct:description>
+                <dct:identifier>https://doi.org/10.005664/654</dct:identifier>
+                <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-01-17T00:00:00</dct:issued>
+                <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-09-09T08:56:18+00:00</dct:modified>
+                <dct:publisher>
+                    <foaf:Organization rdf:about="https://data.vlaanderen.be/id/organisatie/OVO053580">
+                        <foaf:name>https://doi.org/10.005664/65</foaf:name>
+                    </foaf:Organization>
+                </dct:publisher>
+                <dcat:landingPage rdf:resource="https://doi.org/10.005664/65" />
+                <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/NLD" />
+                <dct:title xml:lang="nl">Test dataset 5 title</dct:title>
+                <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset" />
+                <dcat:keyword xml:lang="nl">Vlaamse Open data</dcat:keyword>
+                <dcat:keyword xml:lang="nl">Arbeidszorg structureel</dcat:keyword>
+                <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/ANNUAL" />
+                <dcat:contactPoint>
+                    <vcard:Kind>
+                        <vcard:hasEmail rdf:resource="mailto:socialeeconomie@vlaanderen.be" />
+                    </vcard:Kind>
+                </dcat:contactPoint>
+                <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC" />
+                <dcatapvl:statuut rdf:resource="https://metadata.vlaanderen.be/id/GDI-Vlaanderen-Trefwoorden/VLOPENDATA" />
+                <dcat:theme>
+                    <skos:Concept rdf:about="https://opendata.wse.vlaanderen.be/explore/?refine.theme=Sociale+economie">
+                        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+                        <skos:prefLabel>Sociale economie</skos:prefLabel>
+                    </skos:Concept>
+                </dcat:theme>
+                <dcat:distribution>
+                    <dcat:Distribution rdf:about="https://opendata.wse.vlaanderen.be/api/v2/catalog/datasets/az03-profiel-werkgever-structurele-arbeidszorg-per-jaar_v1/exports/csv?use_labels=true">
+                        <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution" />
+                        <dct:title xml:lang="nl">csv</dct:title>
+                        <dct:description xml:lang="nl">AZ03 - Profiel organisaties met contingent Structurele arbeidszorg per jaar (csv)</dct:description>
+                        <dct:identifier>https://opendata.wse.vlaanderen.be/api/v2/catalog/datasets/az03-profiel-werkgever-structurele-arbeidszorg-per-jaar_v1/exports/csv?use_labels=true</dct:identifier>
+                        <dcat:accessURL rdf:resource="https://opendata.wse.vlaanderen.be/api/v2/catalog/datasets/az03-profiel-werkgever-structurele-arbeidszorg-per-jaar_v1/exports/csv?use_labels=true" />
+                        <dcat:downloadURL rdf:resource="https://opendata.wse.vlaanderen.be/api/v2/catalog/datasets/az03-profiel-werkgever-structurele-arbeidszorg-per-jaar_v1/exports/csv?use_labels=true" />
+                        <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV" />
+                        <dct:license rdf:resource="https://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/v1.0" />
+                        <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/NLD" />
+                        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-01-17T00:00:00</dct:issued>
+                        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-09-09T08:56:18+00:00</dct:modified>
+                    </dcat:Distribution>
+                </dcat:distribution>
+            </dcat:Dataset>
+        </dcat:dataset>
+    </rdf:Description>
 </rdf:RDF>
+
